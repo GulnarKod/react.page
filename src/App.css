@@ -1,4 +1,7 @@
 .app-wrapper{
+    background-image: url('./components/img/v882batch2-kul-13-e.jpg');
+    background-repeat: no-repeat;
+
     margin: 0 auto;
     width: 1200px;
     display: grid;
@@ -8,11 +11,13 @@
     grid-template-rows: 60px 1fr;
     grid-template-columns:2fr 10fr;
     grid-gap: 10px;
-}
+   }
 
 .app-wrapper-content {
     grid-area: m;
-    background-color:  rgb(93, 159, 251);
+    color:rgb(17, 17, 17);
+    line-height: 21px;
+    font-size: 14px;
 }
 
 
